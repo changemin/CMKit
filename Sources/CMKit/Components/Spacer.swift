@@ -7,6 +7,17 @@
 
 import SwiftUI
 
+/**
+ 세로 Spacer
+ 
+ - Parameters:
+ - amount: CGFloat, 높이
+ 
+ # 사용예시 #
+ ```
+ VSpacer(10)
+ ```
+ */
 public struct VSpacer: View {
     @State var amount: CGFloat
     
@@ -19,6 +30,17 @@ public struct VSpacer: View {
     }
 }
 
+/**
+ 가로 Spacer
+ 
+ - Parameters:
+ - amount: CGFloat, 너비
+ 
+ # 사용예시 #
+ ```
+ HSpacer(10)
+ ```
+ */
 public struct HSpacer: View {
     @State var amount: CGFloat
     

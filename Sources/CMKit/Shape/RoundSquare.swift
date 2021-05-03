@@ -7,6 +7,23 @@
 
 import SwiftUI
 
+/**
+ 특정 모서리만 cornerRadius가 적용된 Square Shpe를 반환합니다.
+ 
+ - Parameters:
+    - topLeft: 왼쪽 위
+    - topRight: 오른쪽 위
+    - bottomLeft: 왼쪽 아래
+    - bottonRight: 오른쪽 아래
+ 
+ 
+ - returns: 부분 cornerRadius가 적용된 Shape
+ 
+ # 사용예시 #
+ ```
+ RoundSquare(topLeft: 10, bottomRight: 10)
+ ```
+ */
 public struct RoundSquare: Shape {
     public var topLeft: CGFloat = 0.0
     public var topRight: CGFloat = 0.0
